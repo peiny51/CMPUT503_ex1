@@ -18,5 +18,5 @@ go to http://csc22932.local or http://csc22932 (chrome may generate disconnectio
 `dts start_gui_tools csc22932`: 
 `rostopic list`: see a list of ROS topics currently active on your Duckiebot
 `rostopic echo /csc22932/camera_node/image/compressed`: listen to topics and show you incoming images as the Duckiebot sees them
-`rosparam set /csc22932/kinematices_node/trim 0.02': if right drifting, -trimming value if left drifting
+`rosparam set /csc22932/kinematices_node/trim 0.02`: if right drifting, -trimming value if left drifting
 `rosservice call /csc22932/kinematics_node/save_calibration`: save parameters
